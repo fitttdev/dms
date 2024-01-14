@@ -8,5 +8,5 @@
     "target": "esnext",
     "jsx": "react"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["vite.config.ts"]
 }

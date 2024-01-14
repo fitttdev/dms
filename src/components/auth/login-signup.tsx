@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './login-signup.css'
 import email from '../assets/email.png';
 import password from '../assets/password.png';
