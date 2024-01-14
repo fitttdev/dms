@@ -6,8 +6,8 @@
   background-color: #fff;
   padding: 20px;
   align-items: center;
-  width: 50%;
-  border-radius: 15px;
+  width: 45%;
+  border-radius: 10px;
   font-size: 19px
 }
 
@@ -41,9 +41,9 @@
 .input {
   display: flex;
   align-items: center;
-  width: 480px;
-  height: 80px;
-  border-radius: 6px;
+  width: 350px;
+  height: 60px;
+  border-radius: 5px;
   background-color: #eaeaea;
   margin: auto
 }
@@ -53,7 +53,7 @@
 }
 
 .input input {
-  height: 50px;
+  height: 30px;
   width: 400px;
   background: transparent;
   border: none;
@@ -82,8 +82,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 59px;
-  width: 180px;
+  height: 45px;
+  width: 160px;
   background-color: #1cc8f3;
   border-radius: 50px;
   font-weight: 700;
