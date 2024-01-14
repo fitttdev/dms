@@ -1,12 +1,12 @@
 
 import { useState } from 'react';
-import './login-signup.css'
-import email from '../assets/email.png';
-import password from '../assets/password.png';
-import person from '../assets/person.png';
+import './signin-signup.css'
+import email from '../../assets/images/email.png';
+import password from '../../assets/images/password.png';
+import person from '../../assets/images/person.png';
 
-export const Login = () => {
-  const [action, setAction] = useState("Login");
+export const Signin = () => {
+  const [action, setAction] = useState("Signin");
 
   return (
     <>
@@ -17,7 +17,7 @@ export const Login = () => {
         </div>
         <div className="inputs">
           {
-            action === "Login" ? <div></div> :
+            action === "Signin" ? <div></div> :
               <div className="input">
                 <img src={person} alt="" />
                 <input type="text" placeholder='Name' />
@@ -39,16 +39,16 @@ export const Login = () => {
         }
         <div className="submit-container">
           <div
-            className={action === "Login" ? "submit gray" : "submit"}
+            className={action === "Signin" ? "submit gray" : "submit"}
             onClick={() => { setAction("Sign Up") }}
           >
             Sign Up
           </div>
           <div
             className={action === "Sign Up" ? "submit gray" : "submit"}
-            onClick={() => { setAction("Login") }}
+            onClick={() => { setAction("Signin") }}
           >
-            Login
+            Signin
           </div>
         </div>
       </div>

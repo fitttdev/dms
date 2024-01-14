@@ -1,9 +1,9 @@
 import './App.css'
-import { Login } from './components/auth/login-signup';
+import { Signin } from './components/auth/signin-signup';
 function App() {
   return (
     <>
-      <Login />
+      <Signin />
     </>
   )
 }
