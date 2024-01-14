@@ -6,7 +6,7 @@ import password from '../../assets/images/password.png';
 import person from '../../assets/images/person.png';
 
 export const Signin = () => {
-  const [action, setAction] = useState("Signin");
+  const [action, setAction] = useState("Sign In");
 
   return (
     <>
@@ -39,7 +39,7 @@ export const Signin = () => {
         }
         <div className="submit-container">
           <div
-            className={action === "Signin" ? "submit gray" : "submit"}
+            className={action === "Sign In" ? "submit gray" : "submit"}
             onClick={() => { setAction("Sign Up") }}
           >
             Sign Up
@@ -48,7 +48,7 @@ export const Signin = () => {
             className={action === "Sign Up" ? "submit gray" : "submit"}
             onClick={() => { setAction("Signin") }}
           >
-            Signin
+            Sign In
           </div>
         </div>
       </div>
