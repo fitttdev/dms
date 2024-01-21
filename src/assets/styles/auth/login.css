@@ -1,0 +1,145 @@
+/* Main Content */
+.main-content {
+  height: 100vh;
+  width: 100wh;
+  background-color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Wrapper */
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 590px;
+  width: 1157px;
+  background-color: #1075BC;
+  border-radius: 16px;
+}
+
+.auth-wrapper,
+.welcome-wrapper {
+  flex: 1;
+}
+
+/* Auth Wrapper */
+.auth-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-lg-wrapper {
+  background-color: white;
+  width: 498px;
+  height: 772px;
+  border-radius: 8px;
+}
+
+.login-sm-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 50px 0 50px;
+}
+
+/* Login Header */
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.login-header-logo img {
+  width: 119px;
+  height: 78px;
+}
+
+.login-header p {
+  width: 243px;
+  height: 29px;
+  text-align: center;
+}
+
+/* Login Form */
+.login-form {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border: 3px solid #1075BC;
+}
+
+.sign-up-btn button {
+  outline: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background: #1075BC;
+  border-width: 0;
+  margin-top: 10px;
+}
+
+.sign-up-btn p {
+  color: #fff;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.line-container {
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  width: 50px;
+  border-top: 2px solid #000;
+  margin: 10px 5px;
+}
+
+/* Welcome Wrapper */
+.welcome-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f1f1f1;
+}
+
+.sign-in-btn button {
+  width: 96px;
+  height: 40px;
+  background-color: #28ae60;
+  border-width: 0;
+  border-radius: 8px;
+}
+.sign-in-btn p {
+  color: white;
+}
