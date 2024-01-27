@@ -2,7 +2,7 @@
 export const Dasbhoard = () => {
   return (
     <>
-    Dashboard with sidebar layout here
+      <h1>Dashboard</h1>
     </>
   )
 };

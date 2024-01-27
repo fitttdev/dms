@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
-import Footer from "./footer";
-import Sidebar from "./sidebar";
+import SideNav from "./sidenav";
+import './layout.css'
 
 type LayoutProps = {
   children: ReactNode;
@@ -8,10 +8,9 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div>
-      <Sidebar />
+    <div className='layout'>
+      <SideNav />
       {children}
-      <Footer />
     </div>
   );
 }
