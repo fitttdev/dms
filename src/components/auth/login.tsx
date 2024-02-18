@@ -1,12 +1,12 @@
 
 // import { useState } from 'react';
-import '../../assets/styles/auth/login.css'
+import './login.css'
 import logo from '../../assets/images/logo.png';
 import googleLogo from '../../assets/images/google.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Login = () => {
-
-
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-content">
@@ -30,7 +30,7 @@ export const Login = () => {
                   <div className="form-group">
                     <input type="password" placeholder="Password*" id="password" />
                   </div>
-                  <div className="sign-up-btn">
+                  <div className="sign-up-btn" onClick={() => navigate('/dashboard')}>
                     <button><p>SIGN UP</p></button>
                   </div>
 
@@ -62,5 +62,3 @@ export const Login = () => {
     </>
   )
 }
-
-

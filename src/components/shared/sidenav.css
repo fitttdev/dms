@@ -1,0 +1,107 @@
+.sidenav {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logo-header {
+  background-color: #F8F8F8;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  position: relative;
+}
+
+.logo-header img {
+  width: 57.34px;
+  height: 32.69px;
+}
+
+.logo-header h2 {
+  color: #1075BC;
+}
+
+.user-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 130px;
+}
+
+.user-detail .user-name {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+.user-detail .user-email {
+  color: #1075BC;
+  padding-bottom: 15px;
+}
+
+.hr-line {
+  width: 200.93px;
+  height: 1px;
+  background-color: #1075BC;
+  margin-bottom: 30px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.all-documents {
+  display: flex;
+  height: 40px;
+  background-color: #BADEF6;
+  align-items: center;
+}
+
+.all-documents p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: center;
+}
+
+.left-col {
+  width: 10px;
+  height: 40px;
+  background-color: #1075BC;
+}
+
+.shared-with-me {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.share-icon {}
+
+.shared-with-me-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: center;
+}
